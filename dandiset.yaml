@@ -71,6 +71,7 @@ contributor:
     name: Institute for Cognitive Neuroscience, National Research University Higher
       School of Economics, Russian Federation.
     schemaKey: Affiliation
+  email: fedele.tm@gmail.com
   identifier: 0000-0001-7574-8062
   includeInCitation: true
   name: Fedele, Tommaso
@@ -103,6 +104,7 @@ contributor:
     name: Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091
       Zürich, Switzerland.
     schemaKey: Affiliation
+  identifier: 0000-0002-3744-5105
   includeInCitation: true
   name: Stieglitz, Lennart
   roleName: []
@@ -189,7 +191,27 @@ manifestLocation:
 name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during
   a verbal working memory task
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: usz-neuro-conversion
+  name: USZ Neuro Conversion
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/janhohenheim/usz-neuro-conversion
+- identifier: 10.1126/sciadv.aav3687
+  name: Persistent hippocampal neural firing and hippocampal-cortical coupling predict
+    verbal working memory load
+  relation: dcite:IsSupplementTo
+  repository: Science Advances
+  schemaKey: Resource
+  url: http://doi.org/10.1126/sciadv.aav3687
+- identifier: Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+  name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG
+    during a verbal working memory task
+  relation: dcite:IsVariantFormOf
+  repository: G-Node
+  schemaKey: Resource
+  url: https://gin.g-node.org/USZ_NCH/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4

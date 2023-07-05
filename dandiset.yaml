@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000574
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -43,16 +44,38 @@ assetsSummary:
   - ElectrodeGroup
   - BehavioralEvents
   - ProcessingModule
-citation: Hohenheim, Jan (2023) Dataset of human medial temporal lobe neurons, scalp
-  and intracranial EEG during a verbal working memory task (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000574/draft
+citation: Boran, Ece; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of human
+  medial temporal lobe neurons, scalp and intracranial EEG during a verbal working
+  memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000574/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091
+      Zürich, Switzerland
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Boran, Ece
+  roleName: []
+  schemaKey: Person
 - affiliation: []
   email: jan@hohenheim.ch
   includeInCitation: true
   name: Hohenheim, Jan
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091
+      Zürich, Switzerland.
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05a28rw58
+    name: Zentrum für Neurowissenschaften Zürich, ETH Zürich, Zürich, Switzerland.
+    schemaKey: Affiliation
+  email: Johannes.Sarnthein@usz.ch
+  includeInCitation: true
+  name: Sarnthein, Johannes
+  roleName: []
   schemaKey: Person
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
@@ -68,16 +91,39 @@ description: We present an electrophysiological dataset recorded from nine subje
   the investigation of working memory by providing simultaneous scalp EEG and iEEG
   recordings, which can be used for connectivity analysis, alongside hard to obtain
   unit recordings from humans.
+ethicsApproval: []
 id: DANDI:000574/draft
 identifier: DANDI:000574
+keywords:
+- 'Electrophysiology '
+- Human
+- Awake
+- Local field potential
+- Neuronal action potential
+- Spikes
+- Medial temporal lobe
+- Hippocampus
+- Entorhinal cortex
+- Amygdala
+- Scalp EEG
+- Intracranial EEG
+- Cognitive task
+- Verbal working memory
+- Epilepsy
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000574/versions/draft/assets/
 name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during
   a verbal working memory task
+protocol: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000574/draft
 version: draft
+wasGeneratedBy:
+- {}

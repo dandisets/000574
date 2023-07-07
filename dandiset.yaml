@@ -17,20 +17,20 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14673781040
-  numberOfFiles: 42
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 13067234538
+  numberOfFiles: 37
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -39,10 +39,10 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-  - LFP
-  - ElectricalSeries
   - ElectrodeGroup
   - BehavioralEvents
+  - ElectricalSeries
+  - LFP
   - ProcessingModule
 citation: Boran, Ece; Fedele, Tommaso; Klaver, Peter; Hilfiker, Peter; Stieglitz,
   Lennart; Grunwald, Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of

@@ -2,7 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000574
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about: []
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -44,10 +45,10 @@ assetsSummary:
   - ElectricalSeries
   - LFP
   - ProcessingModule
-citation: Boran, Ece; Fedele, Tommaso; Klaver, Peter; Hilfiker, Peter; Stieglitz,
-  Lennart; Grunwald, Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of
-  human medial temporal lobe neurons, scalp and intracranial EEG during a verbal working
-  memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000574/draft
+citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
+  Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of human medial temporal
+  lobe neurons, scalp and intracranial EEG during a verbal working memory task (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000574/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -75,22 +76,6 @@ contributor:
   identifier: 0000-0001-7574-8062
   includeInCitation: true
   name: Fedele, Tommaso
-  roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/05a28rw58
-    name: Zentrum für Neurowissenschaften Zürich, ETH Zürich, Zürich, Switzerland.
-    schemaKey: Affiliation
-  - identifier: https://ror.org/00ks66431
-    name: School of Psychology, University of Surrey, Surrey GU2 7XH, UK.
-    schemaKey: Affiliation
-  - identifier: https://ror.org/00w9q2c06
-    name: University of Applied Sciences in Special Needs Education, 8050 Zürich,
-      Switzerland.
-    schemaKey: Affiliation
-  identifier: 0000-0002-6541-9975
-  includeInCitation: true
-  name: Klaver, Peter
   roleName: []
   schemaKey: Person
 - affiliation: []
@@ -150,6 +135,7 @@ contributor:
   roleName:
   - dcite:ContactPerson
   - dcite:Author
+  - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
@@ -212,6 +198,12 @@ relatedResource:
   repository: G-Node
   schemaKey: Resource
   url: https://gin.g-node.org/USZ_NCH/Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+- identifier: doi.org/10.1038/s41597-020-0364-3
+  name: Data descriptor
+  relation: dcite:IsDescribedBy
+  repository: scientific data
+  schemaKey: Resource
+  url: https://doi.org/10.1038/s41597-020-0364-3
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4

@@ -2,8 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000574
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about:
-- {}
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -204,6 +203,13 @@ relatedResource:
   repository: scientific data
   schemaKey: Resource
   url: https://doi.org/10.1038/s41597-020-0364-3
+- identifier: Verbal working memory Sternberg task with simultaneous presentation
+    of letters.
+  name: Presentation Files
+  relation: dcite:IsSupplementedBy
+  repository: Neurobehavioral Systems
+  schemaKey: Resource
+  url: ' http://www.neurobs.com/ex_files/expt_view?id=266'
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4

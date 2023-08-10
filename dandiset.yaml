@@ -136,6 +136,16 @@ contributor:
   - dcite:Author
   - dcite:Conceptualization
   schemaKey: Person
+- awardNumber: '204651'
+  contactPoint: []
+  email: projects.ls@snf.ch
+  identifier: https://ror.org/00yjd3n13
+  includeInCitation: false
+  name: ' Swiss National Science Foundation'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.snf.ch/en
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
   during a verbal working memory task. Subjects were epilepsy patients undergoing
@@ -209,7 +219,7 @@ relatedResource:
   relation: dcite:IsSupplementedBy
   repository: Neurobehavioral Systems
   schemaKey: Resource
-  url: ' http://www.neurobs.com/ex_files/expt_view?id=266'
+  url: http://www.neurobs.com/ex_files/expt_view?id=266
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4

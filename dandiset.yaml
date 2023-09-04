@@ -17,20 +17,20 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 13067234538
-  numberOfFiles: 37
+  numberOfBytes: 94356686909
+  numberOfFiles: 44
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -39,11 +39,11 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-  - ElectrodeGroup
-  - BehavioralEvents
-  - ElectricalSeries
   - LFP
+  - ElectrodeGroup
+  - ElectricalSeries
   - ProcessingModule
+  - BehavioralEvents
 citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
   Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of human medial temporal
   lobe neurons, scalp and intracranial EEG during a verbal working memory task (Version

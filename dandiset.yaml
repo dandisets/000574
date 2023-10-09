@@ -146,6 +146,16 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: http://www.snf.ch/en
+- awardNumber: '2586'
+  contactPoint: []
+  email: communications@kavlifoundation.org
+  identifier: https://ror.org/00kztt736
+  includeInCitation: false
+  name: ' The Kavli Foundation'
+  roleName:
+  - dcite:Sponsor
+  schemaKey: Organization
+  url: https://www.kavlifoundation.org/
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
   during a verbal working memory task. Subjects were epilepsy patients undergoing
@@ -220,6 +230,12 @@ relatedResource:
   repository: Neurobehavioral Systems
   schemaKey: Resource
   url: http://www.neurobs.com/ex_files/expt_view?id=266
+- identifier: nwb-example
+  name: Example Reading Code
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/janhohenheim/nwb-example
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4

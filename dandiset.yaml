@@ -37,7 +37,7 @@ assetsSummary:
 citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
   Thomas; Hohenheim, Jan; Sarnthein, Johannes (2025) Dataset of human medial temporal
   lobe neurons, scalp and intracranial EEG during a verbal working memory task (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000574/draft
+  0.250610.0938) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000574/0.250610.0938
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -161,8 +161,9 @@ description: We present an electrophysiological dataset recorded from nine subje
   the investigation of working memory by providing simultaneous scalp EEG and iEEG
   recordings, which can be used for connectivity analysis, alongside hard to obtain
   unit recordings from humans.
+doi: 10.48324/dandi.000574/0.250610.0938
 ethicsApproval: []
-id: DANDI:000574/draft
+id: DANDI:000574/0.250610.0938
 identifier: DANDI:000574
 keywords:
 - 'Electrophysiology '
@@ -183,7 +184,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000574/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000574/0.250610.0938/assets.yaml
 name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during
   a verbal working memory task
 protocol: []
@@ -243,6 +244,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000574/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000574/0.250610.0938
+version: 0.250610.0938
 wasGeneratedBy: []

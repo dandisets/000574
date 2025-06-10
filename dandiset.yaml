@@ -11,8 +11,6 @@ assetsSummary:
   approach:
   - name: electrophysiological approach
     schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -20,18 +18,12 @@ assetsSummary:
   measurementTechnique:
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
   - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 105258469098
-  numberOfFiles: 38
+  numberOfBytes: 107315450285
+  numberOfFiles: 37
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -39,16 +31,13 @@ assetsSummary:
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
-  - LFP
-  - ElectrodeGroup
-  - BehavioralEvents
-  - ProcessingModule
   - ElectricalSeries
+  - ElectrodeGroup
   - Units
 citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
-  Thomas; Hohenheim, Jan; Sarnthein, Johannes (2023) Dataset of human medial temporal
+  Thomas; Hohenheim, Jan; Sarnthein, Johannes (2025) Dataset of human medial temporal
   lobe neurons, scalp and intracranial EEG during a verbal working memory task (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000574/draft
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000574/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -158,7 +147,7 @@ contributor:
   schemaKey: Organization
   url: https://www.kavlifoundation.org/
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
-datePublished: '2023-10-10T18:09:24.752555+00:00'
+datePublished: '2025-06-10T09:38:50.516294+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
   during a verbal working memory task. Subjects were epilepsy patients undergoing
   intracranial monitoring for localization of epileptic seizures. Subjects performed
@@ -199,13 +188,13 @@ name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG 
   a verbal working memory task
 protocol: []
 publishedBy:
-  endDate: '2023-10-10T18:09:24.752555+00:00'
-  id: urn:uuid:f564caee-e350-452e-93db-cbbb4add141c
+  endDate: '2025-06-10T09:38:50.516294+00:00'
+  id: urn:uuid:4ea29348-fdfa-4d09-bc70-26b7ff811c8c
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-10-10T18:09:24.752555+00:00'
+  startDate: '2025-06-10T09:38:50.516294+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0923f328-cb28-4605-94bf-6fd119ca6e37
+  - id: urn:uuid:a9b9e768-e116-48c9-8033-b4c253b643dc
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software

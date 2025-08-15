@@ -146,8 +146,8 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
   url: https://www.kavlifoundation.org/
+- {}
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
-datePublished: '2025-06-10T09:38:50.516294+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
   during a verbal working memory task. Subjects were epilepsy patients undergoing
   intracranial monitoring for localization of epileptic seizures. Subjects performed
@@ -186,19 +186,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000574/versions/draft/assets/
 name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during
   a verbal working memory task
-protocol: []
-publishedBy:
-  endDate: '2025-06-10T09:38:50.516294+00:00'
-  id: urn:uuid:4ea29348-fdfa-4d09-bc70-26b7ff811c8c
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-06-10T09:38:50.516294+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:a9b9e768-e116-48c9-8033-b4c253b643dc
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: usz-neuro-conversion
   name: USZ Neuro Conversion
@@ -242,7 +229,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000574/draft
 version: draft
 wasGeneratedBy: []

@@ -35,9 +35,9 @@ assetsSummary:
   - ElectrodeGroup
   - Units
 citation: Boran, Ece; Fedele, Tommaso; Hilfiker, Peter; Stieglitz, Lennart; Grunwald,
-  Thomas; Hohenheim, Jan; Sarnthein, Johannes (2025) Dataset of human medial temporal
-  lobe neurons, scalp and intracranial EEG during a verbal working memory task (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000574/draft
+  Thomas; Hohenheim, Jan; Costa, Filippo; Sarnthein, Johannes (2025) Dataset of human
+  medial temporal lobe neurons, scalp and intracranial EEG during a verbal working
+  memory task (Version 0.250815.1108) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000574/0.250815.1108
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -105,10 +105,18 @@ contributor:
   includeInCitation: true
   name: Hohenheim, Jan
   roleName:
-  - dcite:ContactPerson
   - dcite:DataCurator
   schemaKey: Person
   url: https://www.hohenheim.ch
+- affiliation:
+  - name: Universitätsspital Zürich
+    schemaKey: Affiliation
+  identifier: 0009-0005-5001-5950
+  includeInCitation: true
+  name: Costa, Filippo
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/01462r250
     name: Klinik für Neurochirurgie, UniversitätsSpital und Universität Zürich, 8091
@@ -146,8 +154,8 @@ contributor:
   - dcite:Sponsor
   schemaKey: Organization
   url: https://www.kavlifoundation.org/
-- {}
 dateCreated: '2023-07-04T13:52:07.557094+00:00'
+datePublished: '2025-08-15T11:08:09.790405+00:00'
 description: We present an electrophysiological dataset recorded from nine subjects
   during a verbal working memory task. Subjects were epilepsy patients undergoing
   intracranial monitoring for localization of epileptic seizures. Subjects performed
@@ -161,8 +169,9 @@ description: We present an electrophysiological dataset recorded from nine subje
   the investigation of working memory by providing simultaneous scalp EEG and iEEG
   recordings, which can be used for connectivity analysis, alongside hard to obtain
   unit recordings from humans.
+doi: 10.48324/dandi.000574/0.250815.1108
 ethicsApproval: []
-id: DANDI:000574/draft
+id: DANDI:000574/0.250815.1108
 identifier: DANDI:000574
 keywords:
 - 'Electrophysiology '
@@ -183,9 +192,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000574/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000574/0.250815.1108/assets.yaml
 name: Dataset of human medial temporal lobe neurons, scalp and intracranial EEG during
   a verbal working memory task
+publishedBy:
+  endDate: '2025-08-15T11:08:09.790405+00:00'
+  id: urn:uuid:e448b28d-2b9c-43aa-8607-0ed5b42f3a60
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-08-15T11:08:09.790405+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:55cab6a8-162d-446d-a226-2f6e75d1a758
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: usz-neuro-conversion
   name: USZ Neuro Conversion
@@ -229,6 +250,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-url: https://dandiarchive.org/dandiset/000574/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000574/0.250815.1108
+version: 0.250815.1108
 wasGeneratedBy: []
